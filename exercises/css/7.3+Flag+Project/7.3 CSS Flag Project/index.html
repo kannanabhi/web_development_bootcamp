@@ -6,7 +6,47 @@
   <title>CSS Flag Project</title>
   <style>
     /* Write your CSS Code here */
-    
+
+    /* full flag */
+    .flag{
+      background-color: red;
+      height:600px;
+      width: 900px;
+      position:relative;
+    }
+    /* alight all text to centre */
+    p{
+      text-align: center;
+      margin:0;
+      font-size:5rem;
+    }
+    /* text inside white circle */
+    div>div>p{
+      color:black;
+    }
+    /* text in red square */
+    div>p{
+      color:white;
+
+    }
+    /* white circle */
+    div>div>div{
+      background-color: white;
+      height:200px;
+      width:200px;
+      border-radius: 50%;
+      position:relative;
+      top:50px;
+      left:350px;
+    }
+    /* blue square */
+    div.flag>div{
+      width:100%;
+      height:300px;
+      background-color: blue;
+      position:absolute;
+      top:150px;
+    }
   </style>
 </head>
 
