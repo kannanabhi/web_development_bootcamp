@@ -13,7 +13,19 @@
 
     /* Hint: What can you do with a media query and flexbox? */
     @media (max-width: 1250px) {
+      .pricing-container{
+        flex: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
       
+    }
+    @media (min-width:1251px) {
+      .pricing-container{
+        flex:inline-flex;
+        flex-direction: row;
+        justify-content: center;
+      }
     }
   </style>
 </head>
